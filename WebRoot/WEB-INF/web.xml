@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxLogin</servlet-name>
+    <servlet-class>gx.action.gxLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxQueryHy</servlet-name>
+    <servlet-class>gx.action.gxQueryHy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxAddHy</servlet-name>
+    <servlet-class>gx.action.gxAddHy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxUpdateHy</servlet-name>
+    <servlet-class>gx.action.gxUpdateHy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxDeleteHy</servlet-name>
+    <servlet-class>gx.action.gxDeleteHy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxExcelOut</servlet-name>
+    <servlet-class>gx.action.gxExcelOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxHyCz</servlet-name>
+    <servlet-class>gx.action.gxHyCz</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxQueryshopinfo</servlet-name>
+    <servlet-class>gx.action.gxQueryshopinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxAddshop</servlet-name>
+    <servlet-class>gx.action.gxAddshop</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxExcelOutsp</servlet-name>
+    <servlet-class>gx.action.gxExcelOutsp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxUpdatesp</servlet-name>
+    <servlet-class>gx.action.gxUpdatesp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxDeletesp</servlet-name>
+    <servlet-class>gx.action.gxDeletesp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxSprk</servlet-name>
+    <servlet-class>gx.action.gxSprk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxQueryspls</servlet-name>
+    <servlet-class>gx.action.gxQueryspls</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxUpdatespls</servlet-name>
+    <servlet-class>gx.action.gxUpdatespls</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxQingkongdata</servlet-name>
+    <servlet-class>gx.action.gxQingkongdata</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxDeletespls</servlet-name>
+    <servlet-class>gx.action.gxDeletespls</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>gxLogin</servlet-name>
+    <url-pattern>/gxLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxQueryHy</servlet-name>
+    <url-pattern>/gxQueryHy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxAddHy</servlet-name>
+    <url-pattern>/gxAddHy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxUpdateHy</servlet-name>
+    <url-pattern>/gxUpdateHy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxDeleteHy</servlet-name>
+    <url-pattern>/gxDeleteHy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxExcelOut</servlet-name>
+    <url-pattern>/gxExcelOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxHyCz</servlet-name>
+    <url-pattern>/gxHyCz</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxQueryshopinfo</servlet-name>
+    <url-pattern>/gxQueryshopinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxAddshop</servlet-name>
+    <url-pattern>/gxAddshop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxExcelOutsp</servlet-name>
+    <url-pattern>/gxExcelOutsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxUpdatesp</servlet-name>
+    <url-pattern>/gxUpdatesp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxDeletesp</servlet-name>
+    <url-pattern>/gxDeletesp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxSprk</servlet-name>
+    <url-pattern>/gxSprk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxQueryspls</servlet-name>
+    <url-pattern>/gxQueryspls</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxUpdatespls</servlet-name>
+    <url-pattern>/gxUpdatespls</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxQingkongdata</servlet-name>
+    <url-pattern>/gxQingkongdata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxDeletespls</servlet-name>
+    <url-pattern>/gxDeletespls</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
